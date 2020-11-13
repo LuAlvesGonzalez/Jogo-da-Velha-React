@@ -1,0 +1,36 @@
+/*
+* src/styles/board.css
+*/
+.tabuleiro-comeco {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tabuleiro {
+  width: 250px;
+}
+
+.tabuleiro-coluna {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tabuleiro-cabeca {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font: 700 18px / 1.618 sans-serif;
+  list-style-type: none;
+}
+
+.tabuleiro-history {
+  margin-left: 18px;
+}
+
+.tabuleiro-history-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.tabuleiro-fim {
+  width: 100%;
+}
